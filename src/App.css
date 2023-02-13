@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: none;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hello {
+  font-size: 5rem;
+  color: chocolate;
+}

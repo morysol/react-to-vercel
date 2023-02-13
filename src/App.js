@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -6,8 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <p className="hello">Hello,</p>
-          <p className="hello">world!</p>
+          <div className="center">
+            <p className="hello">Hello,</p>
+            <p className="hello">world!</p>
+          </div>
         </div>
       </header>
     </div>
